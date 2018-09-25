@@ -1,0 +1,26 @@
+.breadcrumbs *:not(option) {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: var(--black);
+    font-weight: bold;
+  }
+  
+  .breadcrumbs__previous,
+  .breadcrumbs__previous a {
+    display: inline-block;
+    color: var(--dark-gray);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .result-top .breadcrumbs *:not(option) {
+    color: var(--gray);
+  }
+  
+  .result-top .breadcrumbs__previous,
+  .result-top .breadcrumbs__previous a {
+    color: var(--light-blue);
+  }
+  
+  
+  

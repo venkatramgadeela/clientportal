@@ -1,0 +1,18 @@
+
+.admin-card__title {
+  font-weight: 500;
+}
+
+.admin-card__icon,
+.admin-card__title {
+  color: var(--dark-gray);
+}
+
+.admin-card__link:hover .admin-card__title,
+.admin-card__link:hover .admin-card__icon {
+  color: var(--black);
+}
+
+.admin-card__link:hover {
+  text-decoration: none;
+}

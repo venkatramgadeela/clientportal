@@ -1,0 +1,147 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+:root {
+  --red: hsl(0, 100%, 40%);
+  --light-blue: hsl(211, 69%, 85%);
+  --blue: hsl(211, 70%, 55%);
+  --dark-blue: hsl(211, 82%, 35%);
+  --light-gray: hsl(211, 55%, 96%);
+  --gray: hsl(211, 35%, 90%);
+  --mid-gray: hsl(211, 28%, 55%);
+  --dark-gray: hsl(211, 25%, 40%);
+  --black: hsl(211, 20%, 20%);
+  --white: #ffffff;
+  --font: 'Inter UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+
+* {
+  font-family: var(--font) !important;
+  text-rendering: optimizeLegibility !important;
+  text-size-adjust: 100% !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  word-spacing: 0.05rem !important;
+  letter-spacing: 0.025rem !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-gray);
+  color: var(--black);
+  overflow-x: hidden;
+  min-height: 100vh;
+  height: auto;
+  font-size: 100%;
+}
+
+.text-muted {
+  color: var(--mid-gray) !important;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn,
+input,
+select,
+textarea {
+  box-shadow: 0 1px 3px 0 rgba(65, 75, 108, 0.1),
+    0 2px 4px 0 rgba(0, 0, 0, 0.03);
+}
+
+.btn-primary {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.btn-secondary {
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+}
+
+.btn-default {
+  background-color: var(--gray);
+  color: var(--mid-gray);
+}
+
+.btn.btn-link {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.btn-sm {
+  line-height: 1;
+  font-size: 0.85rem;
+}
+
+.btn:not(.btn-sm),
+input,
+select:not(.club-select),
+input.form-control,
+select.form-control {
+  height: 2.75rem !important;
+}
+
+input,
+select,
+textarea,
+.form-control {
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+input:active,
+select:active,
+textarea:active,
+.form-control:active {
+  color: var(--black);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.form-control:focus {
+  color: var(--black);
+}
+
+textarea {
+  resize: none;
+  height: 7.5rem;
+}
+
+.btn {
+  font-weight: bold !important;
+}
+
+.tab-navigation,
+.card,
+.search-bar,
+.result-top,
+.fixedDataTableLayout_main {
+  box-shadow: 0 4px 16px 0 rgba(65, 75, 108, 0.05),
+    0 3px 10px 0 rgba(0, 0, 0, 0.035);
+}
+
+input,
+select,
+textarea,
+.tab-navigation,
+.card,
+.form-control {
+  border: 1px solid var(--gray);
+}
+
+.form-control::placeholder,
+::placeholder {
+  color: var(--mid-gray);
+  font-weight: 500;
+}
+

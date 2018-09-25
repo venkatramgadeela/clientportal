@@ -1,0 +1,32 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# logs
+logs
+*.log
+debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependency directories
+node_modules/
+
+# testing
+coverage
+
+# production
+/build
+
+# dotenv environment variables file
+.env*
+
+# yarn Integrity file
+.yarn-integrity
+
+# misc
+.DS_Store
+.vscode
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

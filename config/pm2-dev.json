@@ -1,0 +1,42 @@
+{
+    "apps": [
+      {
+        "name": "dct-client-dev",
+        "script": "./src/server/dev-entry.js",
+        "watch": true,
+        "exec_mode": "fork",
+        "max_memory_restart": "1G",
+        "max_restarts": 3,
+        "min_uptime": 300,
+        "merge_logs": true,
+        "silent": true,
+        "instances": 1,
+        "ignore_watch": [
+          "./build/**/*.*",
+          "./config/**/*.*",
+          "./logs/*.*",
+          "./node_modules/**/*.*",
+          "./src/client/**/*.*",
+          ".babelrc",
+          ".dockerignore",
+          ".editorconfig",
+          ".eslintignore",
+          ".eslintrc",
+          ".git",
+          ".git/**/*.*",
+          ".gitignore",
+          ".gitattributes",
+          "*.log",
+          "Dockerfile",
+          "example.env",
+          "gulpfile.js",
+          "Jenkinsfile",
+          "package.json",
+          "README.md",
+          "yarn-error.log",
+          "yarn.lock"
+        ]
+      }
+    ]
+  }
+
